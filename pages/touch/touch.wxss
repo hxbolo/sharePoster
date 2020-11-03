@@ -1,0 +1,88 @@
+
+/* 海报 */
+.page-share-poster {
+  width: 100%;
+  height: 100%;
+  z-index: 9999 !important;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.view-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.view-canvas {
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  transform: translateX(-50%);
+  
+  /* // 这边宽高不能用rpx， 不然会影响canvas的样式，要跟canvas（px）的单位保持一致 */
+  width: 293px;
+  height: 460px;
+
+  /* background-color: #cdc; */
+}
+
+
+.share-icon{
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 6px 14px 0 rgba(0,0,0,0.15);
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  top: 60%;
+}
+.share-img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+
+}
+
+.text{
+  font-size: 9px;
+  color: #aaa;
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+
+
+
+.footer-item {
+  background: rgba(0,0,0,0.41);
+  border: 1px solid rgba(255,255,255,0.80);
+  border-radius: 22px;
+  border-radius: 22px;
+  width: 215px;
+  height: 35px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+}
+
